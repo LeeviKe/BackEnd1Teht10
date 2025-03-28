@@ -1,0 +1,49 @@
+{
+  "name": "express_session",
+  "version": "1.0.0",
+  "description": "Expressia",
+  "keywords": [
+    "server"
+  ],
+  "author": "tuito",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributors": [],
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "~1.4.6",
+    "debug": "~4.3.4",
+    "dotenv": "^16.4.7",
+    "ejs": "~3.1.9",
+    "express": "~4.21.2",
+    "express-session": "^1.18.0",
+    "express-validator": "^5.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "morgan": "~1.10.0",
+    "node": "^20.19.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "eslint": "^9.17.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^11.0.1",
+    "nodemon": "^3.0.3",
+    "superagent": "^10.1.1",
+    "supertest": "^7.0.0"
+  }
+}
